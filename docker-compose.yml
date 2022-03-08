@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+    marvel:
+        image: "sumana2001/marvel:1.0"
+        platform: linux/x86_64
+        environment:
+            MYSQL_ROOT_PASSWORD: "12Marvel"
+        ports:
+            - "43306:3306"
