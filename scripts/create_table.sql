@@ -6,3 +6,5 @@ CREATE TABLE `superheroes` (
   `color` varchar(30) NOT NULL,
   `noOfMovies` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ALTER TABLE `superheroes`
+  MODIFY `superheroes` int(11) NOT NULL AUTO_INCREMENT;
