@@ -1,7 +1,7 @@
 # Marvel DB
 This is a custom MySQL Docker container hosted on [Docker Hub](https://hub.docker.com/r/sumana2001/marvel).
 
-Features✨
+## Features✨
 - Creates database `marvel`
 - Creates table `superheroes`
 - Alters `superhero_id` to auto increment
